@@ -1,0 +1,43 @@
+.NavBar {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 7%;
+  background-color: rgb(219, 200, 174);
+  opacity: 0.8;
+  color: white;
+  /* box-shadow: 5px; */
+  border-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 4%;
+  padding-left: 0;
+  animation: open 4000ms ease-out forwards;
+}
+
+.NavBarItem {
+  border-radius: 15px;
+  height: 10%;
+  width: 80%;
+  max-width: 60px;
+  max-height: 60px;
+  background-color: rgb(100, 127, 146);
+  margin-top: 15px;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(300%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-15%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,39 @@
+.projectContainer {
+  /* background-color: rgb(138, 111, 74); */
+  background-color: white;
+  width: 100%;
+  height: 60%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro {
+  height: 100%;
+  width: 70%;
+}
+
+.projectImage {
+  background-size: cover;
+  min-width: 170px;
+  height: 300px;
+  opacity: 1;
+  max-width: 100%;
+  width: 35%;
+  height: 45%;
+  margin-right: 17px;
+  cursor: pointer;
+}
+.projectDescription {
+  margin-left: 17px;
+  align-items: stretch;
+  width: 73%;
+  height: 90%;
+  margin: 0;
+}
+
+.projectImage:hover {
+  background-color: black;
+  opacity: 0.3;
+}

@@ -1,0 +1,26 @@
+.main {
+  margin-left: 15%;
+  width: 85%;
+  margin-top: 2%;
+  max-width: 400px;
+  /* display: flex; */
+  /* margin: 3rem auto; */
+  /* display: block; */
+
+  animation: open 3000ms ease-out forwards;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(-300%);
+  }
+  /* 50% {
+    opacity: 1;
+    transform: translateY(-5%);
+  } */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
