@@ -3,12 +3,6 @@ import insta from "../../assets/Instagram.png";
 import git from "../../assets/gitHubb.png";
 import link from "../../assets/linkedin.png";
 
-const surl = [
-  "https://github.com/camilo1992",
-  "https://www.instagram.com/camilo_1108_/",
-  "https://www.linkedin.com/in/cristian-g-12808039/",
-];
-
 function Social() {
   const openSocial = (e) => {
     // console.log(e.target.className);

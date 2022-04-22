@@ -10,16 +10,6 @@ import game from "../../assets/game.png";
 import map from "../../assets/map.png";
 import redux from "../../assets/newRedux.png";
 
-const urls = [
-  "https://61d8794d803b610008dea258--inspiring-mirzakhani-0903bb.netlify.app/",
-  "https://610050dcdab9e200083f6121--youthful-euler-f0d9b4.netlify.app/#5ed6604591c37cdc054bcd1f",
-  "https://620fb70aa496573962b17b3e--upbeat-bassi-5c439a.netlify.app",
-  "https://6111789277acf000085b0018--practical-mccarthy-be2f71.netlify.app/",
-  "https://610d7b7d1ff82000081321b4--elastic-lichterman-761ac3.netlify.app/",
-  "https://612043795607e800077437e2--awesome-kepler-192b24.netlify.app/",
-  "https://621166cb16fb8c7092ac3327--wonderful-brown-dea1b2.netlify.app/",
-];
-
 const info = [
   {
     link: "https://61d8794d803b610008dea258--inspiring-mirzakhani-0903bb.netlify.app/",
