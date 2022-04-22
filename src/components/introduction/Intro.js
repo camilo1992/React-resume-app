@@ -14,9 +14,8 @@ function Intro() {
         <div className={classes.content}>
           <p>
             I'm a self thaught programmer. Passionate about music, coding and
-            learning. I'm constantly looking for new
-            <span>growing</span>
-            knowledge. Whether professional or personal.
+            learning. I'm constantly looking for new growing knowledge. Whether
+            professional or personal.
           </p>
         </div>
       </div>
