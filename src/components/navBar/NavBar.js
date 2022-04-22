@@ -8,19 +8,30 @@ function NavBar() {
   return (
     <div id="navBar ">
       <ul className={classes.NavBar}>
-        <Link className={classes.NavBarItem} to="intro" smooth={true}>
-          <FontAwesomeIcon icon={faAddressCard} color="blue" />
-          home
-        </Link>
-        <Link className={classes.NavBarItem} to="projects" smooth={true}>
-          Projects
-        </Link>
-        <Link className={classes.NavBarItem} to="hobbies" smooth={true}>
-          hobbies
-        </Link>
-        <Link className={classes.NavBarItem} to="social" smooth={true}>
-          Social
-        </Link>
+        <Link
+          style={{ backgroundColor: "rgb(219, 200, 174)" }}
+          className={classes.NavBarItem}
+          to="intro"
+          smooth={true}
+        ></Link>
+        <Link
+          className={classes.NavBarItem}
+          to="projects"
+          style={{ backgroundColor: "white" }}
+          smooth={true}
+        ></Link>
+        <Link
+          className={classes.NavBarItem}
+          to="hobbies"
+          style={{ backgroundColor: "black" }}
+          smooth={true}
+        ></Link>
+        <Link
+          className={classes.NavBarItem}
+          to="social"
+          style={{ backgroundColor: "rgb(219, 200, 174)" }}
+          smooth={true}
+        ></Link>
       </ul>
     </div>
   );
